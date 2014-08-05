@@ -1,7 +1,7 @@
 {
   "name": "zuera",
-  "version": "0.0.1",
-  "description": "only by the zuera",
+  "version": "0.0.2",
+  "description": "only the zuera",
   "main": "zuera.js",
   "scripts": {
     "test": "test"
