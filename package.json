@@ -1,8 +1,12 @@
 {
   "name": "zuera",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "only the zuera",
   "main": "zuera.js",
+  "preferGlobal": "true",
+  "bin": {
+    "nfc": "zuera.js"
+  },
   "scripts": {
     "test": "test"
   },
@@ -10,5 +14,8 @@
     "zuera"
   ],
   "author": "Paulo Pires",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.3.0"
+  }
 }
