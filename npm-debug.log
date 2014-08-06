@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/mkdarkness/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/mkdarkness/.npm/zuera/0.0.3/package.tgz', '.' ]
+12 verbose tarball /home/mkdarkness/.npm/zuera/0.0.3/package.tgz
+13 verbose folder .
+14 info prepublish zuera@0.0.3
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/mkdarkness/.npm/1f1177db-tar.lock
+17 silly lockFile e4d73bce-ness-npm-zuera-0-0-3-package-tgz tar:///home/mkdarkness/.npm/zuera/0.0.3/package.tgz
+18 verbose lock tar:///home/mkdarkness/.npm/zuera/0.0.3/package.tgz /home/mkdarkness/.npm/e4d73bce-ness-npm-zuera-0-0-3-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile e4d73bce-ness-npm-zuera-0-0-3-package-tgz tar:///home/mkdarkness/.npm/zuera/0.0.3/package.tgz
+22 silly lockFile e4d73bce-ness-npm-zuera-0-0-3-package-tgz tar:///home/mkdarkness/.npm/zuera/0.0.3/package.tgz
+23 silly lockFile a1ae4490-darkness-npm-zuera-0-0-3-package /home/mkdarkness/.npm/zuera/0.0.3/package
+24 verbose lock /home/mkdarkness/.npm/zuera/0.0.3/package /home/mkdarkness/.npm/a1ae4490-darkness-npm-zuera-0-0-3-package.lock
+25 silly lockFile a1ae4490-darkness-npm-zuera-0-0-3-package /home/mkdarkness/.npm/zuera/0.0.3/package
+26 silly lockFile a1ae4490-darkness-npm-zuera-0-0-3-package /home/mkdarkness/.npm/zuera/0.0.3/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'zuera',
+29 silly publish   version: '0.0.3',
+29 silly publish   description: 'only the zuera',
+29 silly publish   main: 'zuera.js',
+29 silly publish   preferGlobal: 'true',
+29 silly publish   bin: { nfc: 'zuera.js' },
+29 silly publish   scripts: { test: 'test' },
+29 silly publish   keywords: [ 'zuera' ],
+29 silly publish   author: { name: 'Paulo Pires' },
+29 silly publish   license: 'MIT',
+29 silly publish   dependencies: { commander: '^2.3.0' },
+29 silly publish   gitHead: '30ef97e2dd8b6055566081c1ff404e246b6b06a8',
+29 silly publish   readme: 'ERROR: No README data found!',
+29 silly publish   _id: 'zuera@0.0.3',
+29 silly publish   _shasum: 'aff25476120d3e38e391f5a5b1f0adb391e4458d',
+29 silly publish   _from: '.' }
+30 verbose request where is /zuera
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 070158193a69a584
+33 verbose url raw /zuera
+34 verbose url resolving [ 'https://registry.npmjs.org/', './zuera' ]
+35 verbose url resolved https://registry.npmjs.org/zuera
+36 verbose request where is https://registry.npmjs.org/zuera
+37 info trying registry request attempt 1 at 02:00:15
+38 http PUT https://registry.npmjs.org/zuera
+39 http 403 https://registry.npmjs.org/zuera
+40 verbose headers { date: 'Wed, 06 Aug 2014 05:00:16 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '282',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-iad2121-IAD',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1407301215.839109,VS0,VE378',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden user: marcosbergamo not authorized to modify zuera
+42 error Changed: dist-tags.latest "0.0.2" -> "0.0.3"
+42 error Added: versions.0.0.3
+42 error Changed: time.modified "2014-08-05T20:05:20.982Z" -> "2014-08-06T04:59:05.676Z"
+42 error Added: time.0.0.3
+42 error Added: _attachments: zuera
+42 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:300:14)
+42 error     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:65)
+42 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:123:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:893:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:844:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:938:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Linux 3.13.0-32-generic
+45 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+46 error cwd /srv/nodeJS/zuera
+47 error node -v v0.10.30
+48 error npm -v 1.4.21
+49 verbose exit [ 1, true ]
