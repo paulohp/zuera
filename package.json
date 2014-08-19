@@ -1,7 +1,7 @@
 {
   "name": "zuera",
-  "version": "0.0.3",
-  "description": "only the zuera",
+  "version": "0.0.4",
+  "description": "never ends",
   "main": "zuera.js",
   "preferGlobal": "true",
   "bin": {
