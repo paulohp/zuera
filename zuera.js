@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env node
 
 var program = require('commander');
 
@@ -9,14 +9,13 @@ program
   .option('end', 'Stop the zuera')
   .parse(process.argv);
 
+
 if(program.start){
-    while(true)
-        console.log('The Zuera has been planted');
+  console.log('The Zuera has been planted');
 }
 
-if(program.end){
-    while(true)
-        console.log('You can stop the Zuera, because the Zuera never ends');
+if(program.ends){
+  console.log('You can stop the Zuera, because the Zuera never ends');
 }
 
 if(program.quote){

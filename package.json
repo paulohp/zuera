@@ -1,11 +1,11 @@
 {
   "name": "zuera",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "never ends",
   "main": "zuera.js",
   "preferGlobal": "true",
   "bin": {
-    "nfc": "zuera.js"
+    "zuera": "zuera.js"
   },
   "scripts": {
     "test": "test"
