@@ -1,6 +1,6 @@
 {
   "name": "zuera",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "never ends",
   "main": "zuera.js",
   "preferGlobal": "true",
@@ -16,6 +16,7 @@
   "author": "Paulo Pires",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.3.0"
+    "commander": "^2.3.0",
+    "open": "0.0.5"
   }
 }

@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 
 var program = require('commander');
+var open = require('open');
 
 program
-  .version('0.0.3')
+  .version('0.1.0')
   .option('start', 'Start the zuera')
   .option('quote', 'A cool quote about the zuera')
   .option('end', 'Stop the zuera')
+  .option('huehue', 'Show a random video about specialists in computers from brazil huehuehue')
   .parse(process.argv);
 
 
@@ -25,4 +27,14 @@ if(program.quote){
     var randomQuote = quotes[random];
 
     console.log(randomQuote);
+}
+
+if(program.huehue){
+  var hues = require('./res/hues.json');
+  var random = Math.floor(Math.random() * hues.length);
+  var randomHue = hues[random];
+
+  open(randomHue)
+
+  console.log("huehuehue brbr")
 }
