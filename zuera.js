@@ -17,7 +17,7 @@ if(program.start){
 }
 
 if(program.ends){
-  console.log('You can stop the Zuera, because the Zuera never ends');
+  console.log('You cant stop the Zuera, because the Zuera never ends');
 }
 
 if(program.quote){
